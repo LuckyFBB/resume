@@ -1,0 +1,107 @@
+.about {
+  height: 100%;
+  background: url('../../../assets/img/bg1.jpeg') center no-repeat;
+  background-size: cover;
+}
+.about__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.about__block {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  align-items: center;
+  border-radius: 10px;
+  opacity: 0.85;
+  background-color: #eee;
+}
+.about__block .block__info {
+  display: flex;
+  flex-direction: column;
+  margin-top:20px; 
+}
+.about__block .block__info .info__avatar {
+  position: relative;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+.about__block .block__info .info__avatar .avatar__line{
+  position: absolute;
+  display: inline-block;
+  top: 50px;
+  width: 70px;
+  border-top: 1px solid #ccc ;
+}
+.about__block .block__info .info__avatar .avatar__line--left{
+  left: -70px
+}
+.about__block .block__info .info__avatar .avatar__line--right{
+  left: 120px
+}
+.about__block .block__info .info__avatar img {
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  vertical-align: middle;
+}
+.about__block .block__info .info__name {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 26px;
+  color: #555;
+}
+.about__block .block__job {
+  width: 200px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+.about__block .block__concat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  width: 200px;
+}
+.about__block .block__concat .concat__list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.about__block .block__concat .concat__list .list__item {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  font-size: 0;
+}
+.about__block .block__concat .concat__list .list__item .item__icon {
+  height: 20px;
+}
+.about__block .block__concat .concat__list .list__item .item__icon img {
+  height: 100%;
+}
+.about__block .block__concat .concat__list .list__item .item__detail {
+  padding-left: 10px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #555;
+}
+.about__block .block__link {
+  display: flex;
+  flex-direction: row;
+  padding-top:20px; 
+  list-style: none;
+}
+.about__block .block__link .link__item {
+  height: 20px;
+  padding: 0 10px;
+}
+.about__block .block__link .link__item img{
+  height: 100%;
+}
