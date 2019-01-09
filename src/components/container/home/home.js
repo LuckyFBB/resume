@@ -12,14 +12,14 @@ import './home.css'
 
 export default function Home() {
   return (
-    <div className='about'>
-      <div className='about__container'>
-        <div className='about__block'>
+    <div className='home'>
+      <div className='home__container'>
+        <div className='home__block'>
           <div className="block__info">
             <div className="info__avatar">
-              <span class="avatar__line avatar__line--left"></span>
+              <span className="avatar__line avatar__line--left"></span>
               <img src={avatar} alt="头像" />
-              <span class="avatar__line avatar__line--right"></span>
+              <span className="avatar__line avatar__line--right"></span>
             </div>
             <div className="info__name">LuckyFBB</div>
           </div>
