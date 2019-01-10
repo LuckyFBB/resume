@@ -11,7 +11,65 @@ import vue from '../../../assets/img/skill/vue.png'
 import xcx from '../../../assets/img/skill/xcx.jpg'
 
 export default function Skill() {
-  let skill = [html, css, js, jquery, boostrap, es, vue, react, xcx]
+  //let skill = [html, css, js, jquery, boostrap, es, vue, react, xcx]
+  let skill = [
+    {
+      'img': html,
+      'title':'HTML5',
+      'intro': '了解HTMl5的新属性，能够编写语义化的HTML',
+      'bgcolor': '#fff',
+      'color':'#555'
+    }, {
+      'img': css,
+      'title':'CSS3',
+      'intro': '了解CSS3的新属性，能够使用新属性编写简单的动画效果',
+      'bgcolor': '#fff',
+      'color':'#555'
+    }, {
+      'img': js,
+      'title':'JavaScript',
+      'intro': '了解JavaScript的使用，熟悉this/原型/闭包等',
+      'bgcolor': '#ffffff',
+      'color':'#555'
+    }, {
+      'img': jquery,
+      'title':'JQuery',
+      'intro': '熟悉JQuery的基本方法与使用',
+      'bgcolor': '#0066af',
+      'color':'#fff'
+    }, {
+      'img': boostrap,
+      'title':'Boostrap',
+      'intro': '能够使用Bootstrap构建响应式页面',
+      'bgcolor': '#74899a',
+      'color':'#fff'
+    }, {
+      'img': es,
+      'title':'ES6',
+      'intro': '了解ES6新方法，对Promise、Class、Module有一定的认识',
+      'bgcolor': '#f2dc41',
+      'color':'#000'
+    }, {
+      'img': vue,
+      'title':'Vue',
+      'intro': '了解Vue的基本语法，能够使用Vue进行组件化开发',
+      'bgcolor': '#808080',
+      'color':'#fff'
+    }, {
+      'img': react,
+      'title':'React',
+      'intro': '了解React的基本语法，参与过公司项目开发，该网站就是基于React开发',
+      'bgcolor': '#282c34',
+      'color':'#f0f0f0'
+    }, {
+      'img': xcx,
+      'title':'微信小程序',
+      'intro': '了解小程序的开发，能够使用相关API进行项目开发',
+      'bgcolor': '#000',
+      'color':'#f0f0f0'
+    }
+  ]
+  const style = { height: '20%', width: '20%', backgroundColor: 'red' }
   return (
     <div className='skill'>
       <div className="skill__title">
@@ -23,9 +81,22 @@ export default function Skill() {
         <div className="skill__list">
           {
             skill.map(item => {
-              return (<div className="list__item">
-                <img src={item} alt="" />
-              </div>)
+              let imageStyle = {
+                backgroundImage: `url(${item.img})`
+              }
+              let colorStyle = {
+                backgroundColor: `${item.bgcolor}`,
+                color:`${item.color}`
+              }
+              return (
+                <div className="list__card">
+                  <div className="card card__front" style={imageStyle}></div>
+                  <div className="card card__back" style={colorStyle}>
+                    <div className="back__title">{item.title}</div>
+                    <div className="back__intro">{item.intro}</div>
+                  </div>
+                </div>
+              )
             })
           }
         </div>
