@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: url('../../../assets/img/work.jpg') no-repeat;
+  background: url('../../../assets/img/bg/work.jpg') no-repeat;
   background-size: cover;
   z-index: -999;
 }
@@ -19,17 +19,19 @@
   z-index: -99;
 }
 .work__plane{
+  position: relative;
+  left:-80px;
   height: 80px;
   width: 80px;
-  animation: plane 8s ease-in-out infinite;
+  animation: plane 15s ease-in-out infinite;
   animation-delay:2s;
 }
 @keyframes plane{
   0%{
-    margin-left: -10%;
+    left: -180px;
   }
   100%{
-    margin-left: 110%;
+    right: 100%;
   }
 }
 .work__plane img{

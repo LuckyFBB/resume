@@ -5,6 +5,7 @@ import './App.css'
 import './assets/style/reset.css'
 import Work from './components/container/work/work';
 import Skill from './components/container/skill/skill';
+import Project from './components/container/project/project';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Home />
         <Work />
         <Skill />
+        <Project />
       </div>
     );
   }

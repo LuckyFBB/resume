@@ -1,6 +1,6 @@
 import React from 'react'
 import './work.css'
-import plane from '../../../assets/img/plane.png'
+import plane from '../../../assets/img/icon/plane.png'
 
 export default function Work() {
   return (

@@ -11,7 +11,6 @@ import vue from '../../../assets/img/skill/vue.png'
 import xcx from '../../../assets/img/skill/xcx.jpg'
 
 export default function Skill() {
-  //let skill = [html, css, js, jquery, boostrap, es, vue, react, xcx]
   let skill = [
     {
       'img': html,
@@ -69,7 +68,6 @@ export default function Skill() {
       'color':'#f0f0f0'
     }
   ]
-  const style = { height: '20%', width: '20%', backgroundColor: 'red' }
   return (
     <div className='skill'>
       <div className="skill__title">

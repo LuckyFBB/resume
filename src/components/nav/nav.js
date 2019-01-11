@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../../assets/img/avatar.jpeg'
+import avatar from '../../assets/img/avatar.jpg'
 import './nav.css'
 
 class Nav extends React.Component {
