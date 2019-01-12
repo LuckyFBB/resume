@@ -69,8 +69,8 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  height: 150px;
-  width: 150px;
+  height: 60%;
+  width: 70%;
   backface-visibility: hidden;
   transform-style: preserve-3d;
   transition: ease-in-out 600ms;

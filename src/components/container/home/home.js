@@ -54,10 +54,14 @@ export default function Home() {
           </div>
           <ul className="block__link">
             <li className="link__item">
-              <img src={git} alt="gitee" />
+              <a href="https://gitee.com/LuckyFBB" target="_blank">
+                <img src={git} alt="gitee" />
+              </a>
             </li>
             <li className="link__item">
-              <img src={csdn} alt="csdn" />
+              <a href="https://blog.csdn.net/LuckyFBB" target="_blank">
+                <img src={csdn} alt="csdn" />
+              </a>
             </li>
             <li className="link__item">
               <img src={photo} alt="photo" />

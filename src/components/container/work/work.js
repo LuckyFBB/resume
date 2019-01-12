@@ -4,9 +4,14 @@ import plane from '../../../assets/img/icon/plane.png'
 
 export default function Work() {
   return (
-    <div className='work'>
+    <div className='work'>{/* 
       <div className="work__plane">
         <img src={plane} />
+      </div> */}
+      <div className="work__title">
+        <span className="title__line" />
+        <span className="title__text">我的工作经验</span>
+        <span className="title__line" />
       </div>
       <div className='work__container'>
         <div className="work__block">
@@ -15,7 +20,7 @@ export default function Work() {
             <span className="year__text">--</span>
             <span className="year__text">2018.10</span>
           </div>
-          <div className="block__bussiness">Hikvision</div>
+          <div className="block__bussiness">HIKVISION</div>
           <div className="block__job">Web前端实习生</div>
           <div className="block__detail">
             <div className="detail__text">学习AngularJS的相关知识</div>

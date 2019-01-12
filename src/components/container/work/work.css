@@ -18,6 +18,23 @@
   opacity: 0.8;
   z-index: -99;
 }
+.work__title {
+  padding: 20px 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.work__title .title__line {
+  display: inline-block;
+  width: 150px;
+  border-top: 1px solid #ccc ;
+}
+.work__title .title__text {
+  padding: 0 10px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 22px;
+  color: #686868;
+}
 .work__plane{
   position: relative;
   left:-80px;
@@ -31,7 +48,7 @@
     left: -180px;
   }
   100%{
-    right: 100%;
+    left: 100%;
   }
 }
 .work__plane img{
