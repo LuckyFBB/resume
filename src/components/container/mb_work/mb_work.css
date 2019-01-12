@@ -1,0 +1,88 @@
+.mwork {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: url('../../../assets/img/bg/work.jpg') no-repeat;
+  background-size: cover;
+  z-index: -999;
+}
+.mwork:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #eee;
+  opacity: 0.8;
+  z-index: -99;
+}
+.mwork__title {
+  padding: 20px 0;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.mwork__title .title__line {
+  display: inline-block;
+  width: 15%;
+  border-top: 1px solid #555 ;
+}
+.mwork__title .title__text {
+  padding: 0 10px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 22px;
+  color: #686868;
+}
+.mwork__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px; 
+}
+.mwork__block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 40px;
+  width: 100%;
+  color: #555
+}
+.mwork__block .block__year {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid #555;
+}
+.mwork__block .block__year .year__text {
+  font-size: 16px;
+}
+.mwork__block .block__intro {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-left: 20px;
+}
+.mwork__block .block__bussiness {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.mwork__block .block__job {
+  padding-top: 20px;
+  font-size: 18px;
+  color: #EEB422;
+}
+.mwork__block .block__detail {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.mwork__block .block__detail .detail__text{
+  line-height: 30px;
+  font-size: 16px;
+}

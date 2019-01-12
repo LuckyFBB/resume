@@ -1,13 +1,9 @@
 import React from 'react'
 import './work.css'
-import plane from '../../../assets/img/icon/plane.png'
 
 export default function Work() {
   return (
-    <div className='work'>{/* 
-      <div className="work__plane">
-        <img src={plane} />
-      </div> */}
+    <div className='work'>
       <div className="work__title">
         <span className="title__line" />
         <span className="title__text">我的工作经验</span>

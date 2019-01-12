@@ -1,5 +1,5 @@
 import React from 'react'
-import './project.css'
+import './mb_project.css'
 import ele from '../../../assets/img/project/ele.png'
 import db from '../../../assets/img/project/douban.jpg'
 import rn from '../../../assets/img/project/react.png'
@@ -24,15 +24,15 @@ export default function Project() {
     'name':'我的简历'
   }]
   return (
-    <div className='project'>
-      <div className="project__title">
+    <div className='mproject'>
+      <div className="mproject__title">
         <span className="title__line" />
         <span className="title__text">我的项目</span>
         <span className="title__line" />
       </div>
-      <div className="project__container">
-        <div className="project__block">
-          <div className="project__list">
+      <div className="mproject__container">
+        <div className="mproject__block">
+          <div className="mproject__list">
             {project.map(item => {
               const bgstyle = {
                 backgroundImage: `url(${item.img})`
@@ -46,7 +46,7 @@ export default function Project() {
           </div>
         </div>
       </div>
-      <div className="project__title">
+      <div className="mproject__title">
         <span className="title__line" />
         <span className="title__text">更多项目，敬请期待</span>
         <span className="title__line" />

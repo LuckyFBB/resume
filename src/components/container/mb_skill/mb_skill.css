@@ -1,4 +1,4 @@
-.skill {
+.mskill {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   background-size: cover;
   z-index: -999;
 }
-.skill:after {
+.mskill:after {
   content: '';
   width: 100%;
   height: 100%;
@@ -18,85 +18,84 @@
   opacity: 0.8;
   z-index: -99;
 }
-.skill__title {
-  padding: 20px 0;
+.mskill__title {
+  padding: 10px 0;
   height: 60px;
   line-height: 60px;
   text-align: center;
 }
-.skill__title .title__line {
+.mskill__title .title__line {
   display: inline-block;
-  width: 150px;
-  border-top: 1px solid #ccc ;
+  width: 15%;
+  border-top: 1px solid #555 ;
 }
-.skill__title .title__text {
+.mskill__title .title__text {
   padding: 0 10px;
   vertical-align: -webkit-baseline-middle;
   font-size: 22px;
   color: #686868;
 }
-.skill__container {
+.mskill__container {
   flex: 1;
-  padding: 0 10%;
 }
-.skill__list {
+.mskill__list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   height: 100%;
 }
-.skill__list .list__card {
+.mskill__list .list__card {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(20%);
-  height: calc(50%);
+  width: calc(33.33%);
+  height: calc(33.33%);
   perspective: 1000px;
 }
-.skill__list .list__card:hover .card__front {
+.mskill__list .list__card:hover .card__front {
   transform: rotateY(180deg);
 }
-.skill__list .list__card:nth-child(even):hover .card__front {
+.mskill__list .list__card:nth-child(even):hover .card__front {
   transform: rotateY(-180deg);
 }
-.skill__list .list__card:hover .card__back {
+.mskill__list .list__card:hover .card__back {
   transform: rotateY(0deg);
   z-index: 1;
 }
-.skill__list .list__card:nth-child(even):hover .card__back {
+.mskill__list .list__card:nth-child(even):hover .card__back {
   transform: rotateY(0deg);
   z-index: 1;
 }
-.skill__list .list__card .card {
+.mskill__list .list__card .card {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   height: 60%;
-  width: 70%;
+  width: 80%;
   backface-visibility: hidden;
   transform-style: preserve-3d;
   transition: ease-in-out 600ms;
   border-radius: 6px;
 }
-.skill__list .list__card .card__front {
+.mskill__list .list__card .card__front {
   background-position: center;
   background-size: cover;
   overflow: hidden;
 }
-.skill__list .list__card .card__back {
+.mskill__list .list__card .card__back {
   display: flex;
   flex-direction: column;
   padding: 0 5px;
   background: #fff;
   transform: rotateY(-180deg);
 }
-.skill__list .list__card .card__back .back__title {
+.mskill__list .list__card .card__back .back__title {
   padding-bottom: 10px;
   text-shadow: 0 1px 2px #555;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
 }
-.skill__list .list__card .card__back .back__intro {
+.mskill__list .list__card .card__back .back__intro {
   font-size: 14px;
 }
