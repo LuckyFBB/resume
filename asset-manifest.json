@@ -1,7 +1,7 @@
 {
-  "main.css": "/resume/static/css/main.b1d7caa8.chunk.css",
-  "main.js": "/resume/static/js/main.aee56b9c.chunk.js",
-  "main.js.map": "/resume/static/js/main.aee56b9c.chunk.js.map",
+  "main.css": "/resume/static/css/main.0117c8f4.chunk.css",
+  "main.js": "/resume/static/js/main.830f2136.chunk.js",
+  "main.js.map": "/resume/static/js/main.830f2136.chunk.js.map",
   "static/js/1.fac40652.chunk.js": "/resume/static/js/1.fac40652.chunk.js",
   "static/js/1.fac40652.chunk.js.map": "/resume/static/js/1.fac40652.chunk.js.map",
   "runtime~main.js": "/resume/static/js/runtime~main.18bea22a.js",
@@ -17,12 +17,14 @@
   "static/media/douban.jpg": "/resume/static/media/douban.ac19317c.jpg",
   "static/media/travel.png": "/resume/static/media/travel.69f8d244.png",
   "static/media/resume.png": "/resume/static/media/resume.5f295c58.png",
+  "static/media/mine.jpg": "/resume/static/media/mine.e94016f4.jpg",
   "static/media/home.css": "/resume/static/media/bg.97eb0ebd.jpeg",
   "static/media/school.png": "/resume/static/media/school.f1444db6.png",
   "static/media/skill.css": "/resume/static/media/skill.1f887f22.jpg",
   "static/media/project.css": "/resume/static/media/project.602293b1.jpg",
-  "static/css/main.b1d7caa8.chunk.css.map": "/resume/static/css/main.b1d7caa8.chunk.css.map",
+  "static/media/about.css": "/resume/static/media/about.21ce1293.jpg",
+  "static/css/main.0117c8f4.chunk.css.map": "/resume/static/css/main.0117c8f4.chunk.css.map",
   "index.html": "/resume/index.html",
-  "precache-manifest.eae1133810961ad0457056dc98afea1d.js": "/resume/precache-manifest.eae1133810961ad0457056dc98afea1d.js",
+  "precache-manifest.f021d94aea7038052876f76d975581fc.js": "/resume/precache-manifest.f021d94aea7038052876f76d975581fc.js",
   "service-worker.js": "/resume/service-worker.js"
 }
