@@ -1,13 +1,13 @@
-.mproject {
+.project {
   position: relative;
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: url('../../../assets/img/bg/project.jpg') no-repeat;
+  background: url('../../../../assets/img/bg/project.jpg') no-repeat;
   background-size: cover;
   z-index: -999;
 }
-.mproject:after {
+.project:after {
   content: '';
   width: 100%;
   height: 100%;
@@ -18,50 +18,49 @@
   opacity: 0.8;
   z-index: -888;
 }
-.mproject__title {
-  padding: 10px 0;
-  height: 40px;
-  line-height: 40px;
+.project__title {
+  padding: 20px 0;
+  height: 60px;
+  line-height: 60px;
   text-align: center;
 }
-.mproject__title .title__line {
+.project__title .title__line {
   display: inline-block;
-  width: 15%;
-  border-top: 1px solid #555 ;
+  width: 150px;
+  border-top: 1px solid #ccc ;
 }
-.mproject__title .title__text {
+.project__title .title__text {
   padding: 0 10px;
   vertical-align: -webkit-baseline-middle;
   font-size: 22px;
   color: #686868;
 }
-.mproject__container {
+.project__container {
   flex: 1;
 }
-.mproject__block {
-  padding: 0 10px;
+.project__block {
+  padding: 0 5%;
   height: 100%;
 }
-.mproject__list {
+.project__list {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100%;
 }
-.mproject__list .list__item {
+.project__list .list__item {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 18%;
-  margin: 1% 0;
+  width: 18%;
+  margin: 0 1%;
   border-radius: 10px;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -777;
 }
-.mproject__list .list__item :after {
+.project__list .list__item :after {
   content: '';
   position: absolute;
   width: 100%;
@@ -73,7 +72,7 @@
   opacity: 0.6;
   z-index: -666;
 }
-.mproject__list .list__item .item__name{
+.project__list .list__item .item__name{
   font-size: 26px;
   color: #fff;
   text-shadow: 0 1px 1px #fff;

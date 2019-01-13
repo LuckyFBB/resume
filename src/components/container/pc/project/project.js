@@ -1,10 +1,10 @@
 import React from 'react'
 import './project.css'
-import ele from '../../../assets/img/project/ele.png'
-import db from '../../../assets/img/project/douban.jpg'
-import rn from '../../../assets/img/project/react.png'
-import travel from '../../../assets/img/project/travel.png'
-import resume from '../../../assets/img/project/resume.jpg'
+import ele from '../../../../assets/img/project/ele.png'
+import db from '../../../../assets/img/project/douban.jpg'
+import rn from '../../../../assets/img/project/react.png'
+import travel from '../../../../assets/img/project/travel.png'
+import resume from '../../../../assets/img/project/resume.jpg'
 
 export default function Project() {
   const project = [{

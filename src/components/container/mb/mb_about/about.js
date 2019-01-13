@@ -1,6 +1,6 @@
 import React from 'react'
 import './mb_about.css'
-import mine from '../../../assets/img/mine.jpg'
+import mine from '../../../../assets/img/mine.jpg'
 
 export default function MbAbout() {
   return (
