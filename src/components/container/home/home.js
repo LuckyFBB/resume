@@ -7,6 +7,7 @@ import photo from '../../../assets/img/icon/photo.png'
 import location from '../../../assets/img/icon/location.png'
 import csdn from '../../../assets/img/icon/csdn.png'
 import git from '../../../assets/img/icon/github.png'
+import blog from '../../../assets/img/icon/blogger.png'
 
 import './home.css'
 
@@ -54,8 +55,13 @@ export default function Home() {
           </div>
           <ul className="block__link">
             <li className="link__item">
-              <a href="https://gitee.com/LuckyFBB" target="_blank">
-                <img src={git} alt="gitee" />
+              <a href="https://github.com/LuckyFBB" target="_blank">
+                <img src={git} alt="github" />
+              </a>
+            </li>
+            <li className="link__item">
+              <a href="https://luckyfbb.github.io/blog.github.io/" target="_blank">
+                <img src={blog} alt="博客" />
               </a>
             </li>
             <li className="link__item">
