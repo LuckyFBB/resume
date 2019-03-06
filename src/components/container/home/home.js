@@ -61,7 +61,7 @@ export default function Home() {
             </li>
             <li className="link__item">
               <a href="https://luckyfbb.github.io/blog.github.io/" target="_blank">
-                <img src={blog} alt="博客" />
+                <img src={blog} alt="博客"/>
               </a>
             </li>
             <li className="link__item">
