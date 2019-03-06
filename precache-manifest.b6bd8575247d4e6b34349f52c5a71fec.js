@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/resume/static/media/react.622bdebe.png"
   },
   {
-    "revision": "3a797d5d5a83301a3fa6",
-    "url": "/resume/static/css/main.8e8e9d98.chunk.css"
+    "revision": "2761c8bc432131d60ef2",
+    "url": "/resume/static/css/main.3f8f3fa4.chunk.css"
   },
   {
-    "revision": "61fa226200e1d6e6c775",
-    "url": "/resume/static/js/1.61fa2262.chunk.js"
+    "revision": "506c246d74f19c7c4264",
+    "url": "/resume/static/js/1.506c246d.chunk.js"
   },
   {
     "revision": "18bea22a2a5d1e1d102c",
@@ -44,8 +44,8 @@ self.__precacheManifest = [
     "url": "/resume/static/media/douban.ac19317c.jpg"
   },
   {
-    "revision": "3a797d5d5a83301a3fa6",
-    "url": "/resume/static/js/main.3a797d5d.chunk.js"
+    "revision": "2761c8bc432131d60ef2",
+    "url": "/resume/static/js/main.2761c8bc.chunk.js"
   },
   {
     "revision": "69f8d2449c67e29cfb6223d64706b1fb",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/resume/static/media/about.bdebc606.jpg"
   },
   {
-    "revision": "f89af4fac9a511fcdcd161ee2d654e6b",
+    "revision": "ac857a184994374100d6fce81eeb9271",
     "url": "/resume/index.html"
   }
 ];
